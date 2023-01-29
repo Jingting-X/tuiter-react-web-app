@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <title>Title</title>
 </head>
 <body>
 <h1>HTML Examples</h1>
 <h2>Heading Tags</h2>
+
 Text documents are often broken up into several sections and subsections. Each section is usually prefaced
 with a short title or heading that attempts to summarize the topic of the section it precedes. For instance this
 paragraph is preceded by the Heading Tags. The font of the section headings are usually larger and
@@ -18,24 +19,22 @@ largest heading and h6 is the smallest heading.
 <h2>Paragraph Tag</h2>
 <p>
     This is a paragraph. We often separate a long set of sentences with vertical spaces to make the text easier to read.
-    Browsers ignore vertical white spaces and render all the text as one single set of sentences.
-    To force the browser to add vertical spacing, wrap the paragraphs you want to separate with the paragraph tag
+    Browsers ignore vertical white spaces and render all the text as one single set of sentences. To force the browser
+    to add vertical spacing, wrap the paragraphs you want to separate with the paragraph tag.
+
 </p>
 <p>
-    This is the first paragraph. The paragraph tag is used
-    to format vertical gaps between long pieces of text
-    like this one.
+    This is the first paragraph. The paragraph tag is used to format vertical gaps between long pieces of text like this
+    one.
 </p>
 <p>
-    This is the second paragraph. Even though there is a
-    deliberate white gap between the paragraph above and
-    this paragraph, by default browsers render them as one
-    contiguous piece of text as shown here on the right.
+    This is the second paragraph. Even though there is a deliberate white gap between the paragraph above and this
+    paragraph, by default browsers render them as one contiguous piece of text as shown here on the right.
 </p>
 <p>
-    This is the third paragraph. Wrap each paragraph with
-    the paragraph tag to tell browsers to render the gaps.
+    This is the third paragraph. Wrap each paragraph with the paragraph tag to tell browsers to render the gaps.
 </p>
+
 <h2>List Tags</h2>
 <h3>Ordered List Tag</h3>
 How to join the 1%
@@ -45,6 +44,7 @@ How to join the 1%
     <li>Marry a like-minded engineer</li>
     <li>Do great work for a decade</li>
 </ol>
+
 <h3>Unordered List Tag</h3>
 My favorite books (in no particular order)
 <ul>
@@ -54,6 +54,7 @@ My favorite books (in no particular order)
     <li>Red Mars</li>
     <li>The Forever War</li>
 </ul>
+
 <h2>Table Tag</h2>
 <table border="1" width="100%">
     <thead>
@@ -99,6 +100,7 @@ Loading an image from the internet:<br/>
 <br/>
 Loading a local image:<br/>
 <img src="teslabot.jpg" height="200px"/>
+
 <h2>Text fields</h2>
 <form id="text-fields">
     <label for="text-fields-username">Username:</label>
@@ -110,6 +112,33 @@ Loading a local image:<br/>
     <label for="text-fields-last-name">Last name:</label>
     <input type="text" id="text-fields-last-name" placeholder="Doe" value="Wonderland"/>
     <!-- copy rest of form elements here -->
+    <h2>Other field types</h2>
+    <label for="text-fields-email">
+        Email:
+    </label>
+    <input type="email"
+           placeholder="jdoe@somewhere.com"
+           id="text-fields-email"/><br/>
+    <label for="text-fields-salary-start">
+        Starting salary:
+    </label>
+    <input type="number"
+           id="text-fields-salary-start"
+           placeholder="1000"
+           value="100000"/><br/>
+    <label for="text-fields-rating">
+        Rating:
+    </label>
+    <input type="range" id="text-fields-rating"
+           placeholder="Doe"
+           max="5"
+           value="4"/><br/>
+    <label for="text-fields-dob">
+        Date of birth:
+    </label>
+    <input type="date"
+           id="text-fields-dob"
+           value="2000-01-21"/><br/>
 </form>
 
 <h2>Text boxes</h2>
@@ -120,7 +149,9 @@ Loading a local image:<br/>
 
 <h3>Buttons</h3>
 <button type="button">Click me!</button>
+
 <h2>Dropdowns</h2>
+
 <h3>Select one</h3>
 <label for="select-one-genre">
     Favorite movie genre: </label><br/>
@@ -146,7 +177,8 @@ Loading a local image:<br/>
     <option value="FANTASY">Fantasy</option>
 </select>
 
-<h2>File upload</h2> <input type="file"/>
+<h2>File upload</h2>
+<input type="file"/>
 
 <h2>Radio buttons</h2>
 <label>Favorite movie genre:</label><br/>
