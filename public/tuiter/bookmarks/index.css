@@ -4,7 +4,7 @@ body {
     border-bottom: none;
 }
 
-.wd-container {
+.wd-container-top {
     padding-left: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -51,16 +51,16 @@ body {
 }
 
 .wd-post-content {
-    font-size: 15px;
     color: white;
+    font-size: 15px;
     max-width: 506px;
     padding-right: 16px;
-    padding-bottom: 12px;
 }
 
 .wd-post-img-container {
     width: 504px;
     height: 264px;
+    padding-top: 12px;
 }
 
 .wd-post-img {
@@ -72,18 +72,18 @@ body {
 }
 
 .wd-post-link-content {
+    max-width: 504px;
     border: 1px solid lightgray;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    max-width: 504px;
+    padding-top: 12px;
 }
 
 .wd-post-title {
     font-size: 15px;
     font-weight: bold;
     color: white;
-    padding: 12px;
-    padding-bottom: 0;
+    padding: 12px 12px 0;
 }
 
 .wd-post-text {
@@ -105,6 +105,7 @@ body {
 
 .wd-post-icon-img {
     padding-right: 12px;
+    color: lightgray;
 }
 
 .wd-url {
@@ -123,4 +124,8 @@ body {
 
 .wd-post-icon-img .wd-url.active {
     color: red;
+}
+
+.wd-post {
+    padding-left: 12px;
 }
