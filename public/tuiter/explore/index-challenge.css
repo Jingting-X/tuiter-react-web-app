@@ -1,22 +1,21 @@
-.wd-body {
-    background-color: white;
-}
-
 .wd-row {
     margin: 0px;
 }
 
 .wd-border {
-    border-left: 1px solid rgb(47, 51, 54);
-    border-right: 1px solid rgb(47, 51, 54);
+    border-left: 1px solid ;
+    border-right: 1px solid;
+    border-color: lightgray;
 }
 
 .wd-border-bottom {
-    border-bottom: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid;
+    border-color: lightgray;
 }
 
 .wd-border-top {
-    border-top: 1px solid rgb(47, 51, 54);
+    border-top: 1px solid;
+    border-color: lightgray;
 }
 
 .wd-middle-padding {
@@ -30,10 +29,6 @@
 
 .list-group-item.wd-list-group-item.active {
     font-weight: bold;
-}
-
-.wd-icon-white {
-    color: white;
 }
 
 .wd-input {
@@ -52,9 +47,6 @@
 .nav.nav-tabs.wd-tabs {
     font-weight: bold;
     padding-bottom: 0rem !important;
-    border-left: 1px solid rgb(47, 51, 54);
-    border-right: 1px solid rgb(47, 51, 54);
-    border-bottom: 1px solid rgb(47, 51, 54);
 }
 
 .nav-link.wd-nav-link {
@@ -67,16 +59,6 @@
     color: black;
     border: none;
     border-bottom: 4px solid rgb(29, 161, 242);
-}
-
-.wd-container-post-info-organization {
-    display: flex;
-}
-
-.wd-break-point {
-    padding-left: 4px;
-    padding-right: 4px;
-    color: rgb(110, 118, 125);
 }
 
 .wd-list-group-item-gray {
