@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     border: solid rgb(47, 51, 54);
     border-bottom: none;
 }
@@ -149,4 +149,16 @@ body {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.wd-search-day {
+    color: gray;
+    bottom: 10px;
+    left: 10px;
+}
+
+.wd-fa-stack-1x {
+    left:0;
+    position: absolute;
+    width: 100%;
 }
