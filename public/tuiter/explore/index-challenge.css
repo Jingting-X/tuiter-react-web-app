@@ -1,0 +1,118 @@
+.wd-body {
+    background-color: white;
+}
+
+.wd-row {
+    margin: 0px;
+}
+
+.wd-border {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-bottom {
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-border-top {
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-middle-padding {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.list-group-item.wd-list-group-item {
+    border: none;
+}
+
+.list-group-item.wd-list-group-item.active {
+    font-weight: bold;
+}
+
+.wd-icon-white {
+    color: white;
+}
+
+.wd-input {
+    background-color: #e8e8e8;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.wd-search-tuiter {
+    bottom: 10px;
+    left: 25px;
+    color: gray;
+}
+
+.nav.nav-tabs.wd-tabs {
+    font-weight: bold;
+    padding-bottom: 0rem !important;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.nav-link.wd-nav-link {
+    color: gray;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-link.wd-nav-link.active {
+    color: black;
+    border: none;
+    border-bottom: 4px solid rgb(29, 161, 242);
+}
+
+.wd-container-post-info-organization {
+    display: flex;
+}
+
+.wd-break-point {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-list-group-item-gray {
+    background-color: #eeeeee;
+    border-width: 0px;
+}
+
+.wd-fa-stack-1x {
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.wd-fa-stack-1x-dots {
+    left: 3px;
+    top: 3px;
+    position: absolute;
+    width: 100%;
+}
+
+.wd-post-de-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.btn.wd-btn {
+    font-weight: bold;
+}
+
+.rounded.wd-top-rounded {
+    border-top-right-radius: 1rem !important;
+    border-top-left-radius: 1rem !important;
+}
+
+.rounded.wd-bottom-rounded {
+    border-bottom-right-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+}
