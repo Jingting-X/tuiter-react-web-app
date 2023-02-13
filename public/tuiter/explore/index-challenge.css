@@ -3,7 +3,7 @@
 }
 
 .wd-border {
-    border-left: 1px solid ;
+    border-left: 1px solid;
     border-right: 1px solid;
     border-color: lightgray;
 }
@@ -66,23 +66,11 @@
     border-width: 0px;
 }
 
-.wd-fa-stack-1x {
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-
 .wd-fa-stack-1x-dots {
     left: 3px;
     top: 3px;
     position: absolute;
     width: 100%;
-}
-
-.wd-post-de-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
 }
 
 .btn.wd-btn {
