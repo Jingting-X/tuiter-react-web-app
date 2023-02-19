@@ -12,7 +12,6 @@ const WhoToFollowList = () => {
         return (WhoToFollowListItem(who))
     }).join('')}
            </ul>
-
     `)
 }
 export default WhoToFollowList;
