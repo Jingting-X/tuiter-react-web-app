@@ -27,15 +27,17 @@ const ExploreComponent = () => {
                 <li className="nav-item">
                     <a className="nav-link">News</a>
                 </li>
+                <li className="nav-item">
+                    <a className="nav-link">Sports</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link">Entertainment</a>
+                </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="../../../public/images/starship.png" width="100%"/>
-                {/*<h4 className="position-absolute bottom-0 left-10 text-white" style="left: 15px">*/}
-                {/*    SpaceX's Starship*/}
-                {/*</h4>*/}
-                {/*<img src="../../../public/images/starship.png" className="w-100"/>*/}
-                {/*<h1 className="position-absolute wd-nudge-up text-white">*/}
-                {/*    SpaceX Starship</h1>*/}
+                <img src="/images/starship.png" className="w-100"/>
+                <h1 className="position-absolute wd-nudge-up text-white">
+                    SpaceX Starship</h1>
             </div>
 
             <PostSummaryList/>

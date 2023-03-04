@@ -1,8 +1,5 @@
-import {Link} from "react-router-dom";
-import Nav from "../nav.js";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list/index";
-import PostSummaryList from "./post-summary-list";
 import ExploreComponent from "./explore";
 function Tuiter() {
     return (

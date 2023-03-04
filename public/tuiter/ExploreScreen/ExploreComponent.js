@@ -2,7 +2,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return (`
-            <div class="row">
+           <div class="row">
                 <!-- search field and cog -->
                 <div class="col-10 align-self-center">
                     <div class="position-relative">
