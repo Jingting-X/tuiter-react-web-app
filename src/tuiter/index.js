@@ -3,6 +3,7 @@ import WhoToFollowList from "./who-to-follow-list/index";
 import ExploreComponent from "./explore";
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
+
 function Tuiter() {
     return (
         <div className="row mt-2">
@@ -13,7 +14,7 @@ function Tuiter() {
                  style={{"position": "relative"}}>
                 <Routes>
                     {/*<Route path="/"    element={<ExploreComponent/>}/>*/}
-                    <Route path="home"    element={<HomeComponent/>}/>
+                    <Route path="home" element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
                 </Routes>
             </div>
