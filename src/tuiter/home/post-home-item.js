@@ -43,7 +43,7 @@ const PostHomeItem = ({
                         </div>
                     </div>
                     <div className="mb-2">
-                        <span className="text-secondary">{post.content}</span>
+                        <span className="text">{post.content}</span>
                     </div>
                     <ImageCondition image={{"hasImage": post.hasImage, "image": `${post.image}`}}/>
                     <OriginalTweetCondition originalTweet={{

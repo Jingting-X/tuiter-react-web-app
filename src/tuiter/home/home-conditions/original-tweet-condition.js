@@ -22,7 +22,7 @@ const OriginalTweetCondition = ({
                         <div
                             className="text-secondary"> @{originalTweet.handle} · {originalTweet.time}</div>
                     </div>
-                    <div className="text-secondary">{originalTweet.content}</div>
+                    <div className="text">{originalTweet.content}</div>
                 </div>
             );
         } else {
