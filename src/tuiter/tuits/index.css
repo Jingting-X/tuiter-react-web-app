@@ -1,0 +1,18 @@
+.wd-liked-color {
+    color: red;
+}
+
+.wd-stats-button {
+    outline: 0;
+    background: none;
+    border: none;
+}
+
+.wd-profile-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-tuit-width {
+    width: 100%;
+}
