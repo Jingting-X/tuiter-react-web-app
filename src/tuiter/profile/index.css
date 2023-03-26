@@ -1,0 +1,14 @@
+.wd-banner {
+    width: 100%;
+    height: 200px;
+}
+
+.wd-avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+    background-color: white;
+}
