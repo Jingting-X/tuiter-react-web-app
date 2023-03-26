@@ -2,7 +2,6 @@ import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {updateProfile} from "../profile-reducer";
 import {Link} from "react-router-dom";
-import {monthNames} from "../index";
 
 const EditProfileComponent = () => {
     const profile = useSelector(state => state.profile);
@@ -39,9 +38,7 @@ const EditProfileComponent = () => {
         currProfile.bio = document.getElementById("profileBio").value;
         currProfile.location = document.getElementById("profileLocation").value;
         currProfile.website = document.getElementById("profileWebsite").value;
-
-        const newDateOfBirth = document.getElementById("profileBirthOfDate").value;
-        currProfile.dateOfBirth = DashToSlashConvert(newDateOfBirth);
+        currProfile.dateOfBirth = document.getElementById("profileBirthOfDate").value;
 
         updateProfileDispatch(updateProfile(currProfile));
     }
@@ -92,7 +89,7 @@ const EditProfileComponent = () => {
                 </div>
             </div>
             <input id="profileBirthOfDate" className="form-control border-0"
-                   defaultValue={BirthdateConvert(profile.dateOfBirth)}/>
+                   defaultValue={`${profile.dateOfBirth}`}/>
             <div className="row pt-3">
                 <div className="col-11">Switch to professional</div>
                 <div className="col-1 float-end">
@@ -103,23 +100,5 @@ const EditProfileComponent = () => {
     );
 
 };
-
-export const BirthdateConvert = (date) => {
-    const birthDate = date.split("/");
-    const month = birthDate[0] - 1;
-    return monthNames[month] + " " + birthDate[1] + ", " + birthDate[2];
-}
-export const DashToSlashConvert = (DashDate) => {
-    console.log("DashToSlashConvert")
-    console.log("DashDate: " + DashDate)
-    let [year, month, day] = DashDate.split("-");
-    if (month < 10) {
-        month = month.substring(1);
-    }
-    if (day < 10) {
-        day = day.substring(1);
-    }
-    return month + "/" + day + "/" + year;
-}
 
 export default EditProfileComponent;

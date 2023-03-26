@@ -36,16 +36,11 @@ const ProfileComponent = () => {
                 {profile.bio}
             </div>
             <div className="row pt-2">
-                <div className="col-4">
+                <div>
                     <span className="bi bi-geo-alt text-secondary"></span>
-                    <span className="ps-1">{profile.location}</span>
-                </div>
-                <div className="col-4">
+                    <span className="ps-1">{profile.location} </span>
                     <span className="bi bi-balloon text-secondary"></span>
-                    <span className="ps-1">Born {dateOfBirth}</span>
-                </div>
-
-                <div className="col-4">
+                    <span className="ps-1">Born {dateOfBirth} </span>
                     <span className="bi bi-calendar3 text-secondary"></span>
                     <span className="ps-1">Joined {dateOfJoin}</span>
                 </div>
@@ -64,17 +59,17 @@ const ProfileComponent = () => {
 
 };
 
-export const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+export const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 export const BirthdateConvert = (date) => {
     const birthDate = date.split("/");
     const month = birthDate[0] - 1;
-    return monthNames[month] + " " + birthDate[1] + ", " + birthDate[2];
+    return months[month] + " " + birthDate[1] + ", " + birthDate[2];
 }
 export const JoinDateConvert = (date) => {
     const joinDate = date.split("/");
     const joinMonth = joinDate[0] - 1;
-    return monthNames[joinMonth] + ", " + joinDate[1];
+    return months[joinMonth] + ", " + joinDate[1];
 }
 
 export default ProfileComponent;
