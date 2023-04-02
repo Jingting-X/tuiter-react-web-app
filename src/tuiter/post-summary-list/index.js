@@ -4,7 +4,7 @@ import PostSummaryItem from "./post-summary-item";
 import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
-    const postsArray = useSelector(state => state.tuits) // get tuits from the state in the store
+    const postsArray = useSelector(state => state.posts) // get tuits from the state in the store
     return (
         <ul className="list-group">
             {
